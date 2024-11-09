@@ -1,5 +1,13 @@
 function App() {
-  return <h1 className='text-blue font-fraunces'>Hello React!</h1>;
+  return (
+    <div className='grid sm:grid-cols-2 sm:max-w-3xl bg-white m-4 rounded-xl overflow-hidden'>
+      <div>
+        <img src='/image-product-mobile.jpg' className='sm:hidden block ' />
+        <img src='/image-product-desktop.jpg' className='sm:block hidden' />
+      </div>
+      <div>TEST</div>
+    </div>
+  );
 }
 
 export default App;
